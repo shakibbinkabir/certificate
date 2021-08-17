@@ -1,9 +1,3 @@
-# Certificate-Generator
-Generate PDF certificate using JavaScript
+# Certificate Generator
 
-This app uses two library PDF-lib.js and FileSaver.js
-
-![Screenshot](https://i.imgur.com/H7mcyZ3.png)
-
-# Certificate Sample
-![Sample pdf](https://i.imgur.com/GFGU3K9.jpg)
+Made for MERN stack youtube channel tutorial. Please contact me for any confusions on youtube.
