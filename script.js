@@ -12,9 +12,10 @@ image.onload = function () {
 function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '40px monotype corsiva'
-	ctx.fillStyle = '#29e'
-	ctx.fillText(nameInput.value, 40, 180)
+	ctx.font = '18px Allura'
+	ctx.fillStyle = '#0000000'
+	ctx.fillText(nameInput.value, 250, 180)
+	ctx.textAlign = "center"; 
 }
 
 nameInput.addEventListener('input', function () {
