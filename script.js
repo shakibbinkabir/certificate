@@ -12,9 +12,9 @@ image.onload = function () {
 function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '18px Allura'
+	ctx.font = '100px Allura'
 	ctx.fillStyle = '#0000000'
-	ctx.fillText(nameInput.value, 250, 180)
+	ctx.fillText(nameInput.value, 1000, 725)
 	ctx.textAlign = "center"; 
 }
 
